@@ -8,6 +8,8 @@
 * SQLite to store the favourite data.
 * [Retrofit](http://square.github.io/retrofit/) for REST calls.
 * [Picasso](https://github.com/square/picasso) for efficient image loading.
+* To build and use the app, you will need to get an api key from themoviedb.org and put it in TmdbApiService class
+  <code>private static final String TMDB_API_KEY ="YOUR_API_KEY_HERE";</code>
 
 ###Screenshots:
 
