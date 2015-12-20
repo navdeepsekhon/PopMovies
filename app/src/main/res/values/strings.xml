@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PopMovies</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sort_order">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Now Playing</item>
+        <item>Upcoming</item>
+        <item>Favourites</item>
+    </string-array>
+
+</resources>

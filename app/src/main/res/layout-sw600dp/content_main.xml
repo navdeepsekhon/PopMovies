@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+<fragment
+    android:id="@+id/fragment_main"
+    android:name="co.navdeep.popmovies.app.MainActivityFragment"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:layout="@layout/fragment_main" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height= "match_parent"
+        android:background="@android:color/darker_gray" />
+
+    <FrameLayout
+        android:id="@+id/fragment_detail"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>
